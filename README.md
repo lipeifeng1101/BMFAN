@@ -28,7 +28,7 @@ https://www4.comp.polyu.edu.hk/~csajaykr/fn2.htm
 ## Data pre-processing
    The images of SDUMLA and HKPU can be used directly for training. However, in order to get better recognition results, we pre-processed the images before training:
 
-   1、Pre-process the images using the methods in `/pre-process folder`
+   1、Pre-process the images using the methods in `BMFAN/pre-process`
 
    2、Save the processed image as the dataset used in this article.
 
