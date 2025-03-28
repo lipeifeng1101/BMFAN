@@ -8,6 +8,23 @@ The repository includes all the scripts, configurations, and detailed instructio
 - PyTorch 2.1.2+cu118
 - NumPy 1.26.4
 
+## Download data
+The experimental evaluation utilizes two benchmark biometric datasets:
+
+SDUMLA Dataset: This multimodal biometric database contains 106 subjects' iris, fingerprint, face and gait modalities captured under constrained laboratory conditions.
+
+```
+https://time.sdu.edu.cn/kycg/gksjk.htm
+```
+
+HKPU Database: The Hong Kong Polytechnic University's public dataset provides 7,920 near-infrared palm images from 400 volunteers. 
+
+```
+https://www4.comp.polyu.edu.hk/~csajaykr/fn2.htm
+```
+
+
+
 ## Data pre-processing
    The image features of Flickr30K and MS-COCO are available in numpy array format, which can be used for training directly. However, if you wish to test on another dataset, you will need to start from scratch:
 
