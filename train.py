@@ -8,9 +8,9 @@ from torchvision import transforms
 import torchvision.models as models
 from my_dataset import MyDataSet
 #from model import mobile_vit_xx_small as create_model
-from utils5 import read_split_data, train_one_epoch, evaluate
+from utils import read_split_data, train_one_epoch, evaluate
 #from model import mobile_vit_small as create_model
-from model7 import BiAM,GoogLeNetFeatureExtractor
+from model import BiAM,GoogLeNetFeatureExtractor
 
 import warnings
 warnings.filterwarnings("ignore")
