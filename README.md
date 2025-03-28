@@ -26,10 +26,18 @@ https://www4.comp.polyu.edu.hk/~csajaykr/fn2.htm
 
 
 ## Data pre-processing
-   The image features of Flickr30K and MS-COCO are available in numpy array format, which can be used for training directly. However, if you wish to test on another dataset, you will need to start from scratch:
+   The images of SDUMLA and HKPU can be used directly for training. However, in order to get better recognition results, we pre-processed the images before training:
 
-   
-   1、Use the and the bottom-up attention model to extract features of image regions. The output file format will be a tsv, where the columns are ['image_id', 'image_w', 'image_h', 'num_boxes', 'boxes', 'features'].  `bottom-up-attention/tools/generate_tsv.py`
+   1、Pre-process the images using the methods in `/pre-process folder`
 
-   
-   2、Use to convert the above output to a numpy `array.util/convert_data.py`
+   2、Save the processed image as the dataset used in this article.
+
+## Training
+```
+python train.py 
+```
+
+## Evaluate trained models
+```
+python predict.py 
+```
