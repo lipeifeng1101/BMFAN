@@ -18,7 +18,7 @@ This repository provides the complete implementation of our novel BMFAN framewor
 |----------------------|------------------------------------- |
 | `BMFAN/model.py`     | Overall network implementation       |
 | `BMFAN/my.dataset.py`| Data processing loading              |
-| `BMFAN/predict.py`   | Prediction                           |
+| `BMFAN/predict.py`   | Predict                              |
 | `BMFAN/split.py`     | Dataset segmentation                 |
 | `BMFAN/train.py`     | Train                                |
 | `BMFAN/utils.py`     | Parameter settings                   |
